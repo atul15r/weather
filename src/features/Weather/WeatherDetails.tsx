@@ -47,9 +47,7 @@ export const WeatherDetails: FC<Props> = ({navigation, route}) => {
       <Header>
         <Left>
           <Button transparent onPress={() => navigation.goBack()}>
-            <Text style={{color: '#fff', textTransform: 'capitalize'}}>
-              back
-            </Text>
+            <Text style={{textTransform: 'capitalize'}}>back</Text>
           </Button>
         </Left>
         <Body>
